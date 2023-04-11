@@ -318,8 +318,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Banner */
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: linear-gradient(rgb(73, 0, 73), #0f0f39, #131415);
+  height: 100vh;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
@@ -444,11 +445,16 @@ h2:hover {
 }
 
 .proj-img {
-  position: relative;
-  height: 210px;
+  padding-left: 20px;
+}
+
+.proj-img img {
+  background-color: white;
+  width: 100%;
+  height: 230px;
+  object-fit: fill;
   border-radius: 30px;
   overflow: hidden;
-  padding-left: 20px;
   margin-bottom: 24px;
   margin-top: 20px;
 }
@@ -463,6 +469,15 @@ h2:hover {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+}
+
+.info-link {
+  text-decoration: none;
+  color: #f5b6d8;
+}
+
+.info-link:hover {
+  color: #f93ea2;
 }
 
 /* Publications */
@@ -587,6 +602,10 @@ h2:hover {
   width: 100%;
 }
 
+.toast {
+  color: #000;
+}
+
 /* Footer */
 .footer {
   padding: 30px 0 30px 0;
@@ -610,6 +629,18 @@ h2:hover {
 }
 
 /* Responsive */
+@media (max-width: 500px) {
+  .banner .profile-img {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 850px) {
+  .banner .profile-img {
+    width: 320px;
+  }
+}
+
 @media (max-width: 850px) {
   nav.navbar.scrolled {
     padding: 7px 0;
@@ -621,10 +652,6 @@ h2:hover {
 
   .banner p {
     padding: 10px 30px;
-  }
-
-  .banner img {
-    width: 300px;
   }
 
   .project {

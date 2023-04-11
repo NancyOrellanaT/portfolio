@@ -1,20 +1,22 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/mail.png";
 import TrackVisibility from "react-on-screen";
-import "animate.css";
 import emailjs from "@emailjs/browser";
+import "animate.css";
 
 export const Contact = () => {
+  const form = useRef();
+
   const formInitialDetails = {
     firstName: "",
     lastName: "",
     email: "",
     message: "",
   };
+
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState("Send");
-  const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -24,38 +26,27 @@ export const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    let message = {
-      user_name: formDetails.firstName + formDetails.lastName,
-    };
     e.preventDefault();
     setButtonText("Sending...");
-    console.log(formDetails);
-    /*emailjs
+    emailjs
       .sendForm(
         "service_sn0c06w",
         "template_31uzuvh",
-        JSON.stringify(formDetails),
+        form.current,
         "cSn6a1ZRhsAweUk1G"
       )
       .then(
         (result) => {
-          console.log(result.text);
           setButtonText("Send");
           setFormDetails(formInitialDetails);
-          if (result.code === 200) {
-            setStatus({ succes: true, message: "Message sent successfully" });
-          }
+          alert("Message sent successfully.");
         },
         (error) => {
           console.log(error.text);
-          setButtonText("Message wasn't sent");
-          setStatus({
-            succes: false,
-            message: "Something went wrong, please try again later.",
-          });
+          setButtonText("Message wasn't sent.");
+          alert("Something went wrong, please try again later.");
         }
-      );*/
-    setButtonText("Send");
+      );
   };
 
   return (
@@ -78,13 +69,15 @@ export const Contact = () => {
                   </h2>
                 )}
               </TrackVisibility>
-              <form onSubmit={handleSubmit}>
+              <form ref={form} onSubmit={handleSubmit}>
                 <Row>
                   <Col size={12} sm={6} className="p-1">
                     <input
                       type="text"
                       value={formDetails.firstName}
                       placeholder="First Name"
+                      name="firstName"
+                      required
                       onChange={(e) =>
                         onFormUpdate("firstName", e.target.value)
                       }
@@ -93,8 +86,10 @@ export const Contact = () => {
                   <Col size={12} sm={6} className="p-1">
                     <input
                       type="text"
-                      value={formDetails.lasttName}
+                      value={formDetails.lastName}
                       placeholder="Last Name"
+                      name="lastName"
+                      required
                       onChange={(e) => onFormUpdate("lastName", e.target.value)}
                     />
                   </Col>
@@ -103,6 +98,8 @@ export const Contact = () => {
                       type="email"
                       value={formDetails.email}
                       placeholder="Email Address"
+                      name="email"
+                      required
                       onChange={(e) => onFormUpdate("email", e.target.value)}
                     />
                   </Col>
@@ -111,23 +108,14 @@ export const Contact = () => {
                       rows="6"
                       value={formDetails.message}
                       placeholder="Message"
+                      name="message"
+                      required
                       onChange={(e) => onFormUpdate("message", e.target.value)}
                     ></textarea>
                     <button type="submit" onClick={handleSubmit}>
                       <span>{buttonText}</span>
                     </button>
                   </Col>
-                  {status.message && (
-                    <Col>
-                      <p
-                        className={
-                          status.success === false ? "danger" : "success"
-                        }
-                      >
-                        {status.message}
-                      </p>
-                    </Col>
-                  )}
                 </Row>
               </form>
             </div>
