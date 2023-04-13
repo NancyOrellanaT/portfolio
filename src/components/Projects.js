@@ -56,7 +56,7 @@ export const Projects = () => {
       title: "Realtor CRM",
       technologies: "Vue & Vuetify",
       description:
-        "Implemented a Customer Relationship Management system for a real estate company. This CRM provides a centralized platform for managing customer data more efficiently, allowing real estate agents to maintain detailed records of all interactions with clients and prospects. Also, the company can better engage with potential clients and keep track of transactions.",
+        "I implemented a Customer Relationship Management system for a real estate company. This CRM provides a centralized platform for managing customer data more efficiently, allowing real estate agents to maintain detailed records of all interactions with clients and prospects. Also, the company can better engage with potential clients and keep track of transactions.",
       imgUrl: projImg6,
       infoLink: "",
     },
