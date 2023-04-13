@@ -402,6 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project .presentation {
   text-align: center;
+  font-size: 17px;
 }
 
 .project h2 {
@@ -629,15 +630,47 @@ h2:hover {
 }
 
 /* Responsive */
-@media (max-width: 500px) {
+@media (max-width: 380px) {
   .banner .profile-img {
-    width: 50vw;
+    width: 40vw;
+  }
+
+  .banner {
+    padding-top: 140px;
+    height: 120vh;
   }
 }
 
-@media (min-width: 500px) and (max-width: 850px) {
+@media (min-width: 380px) and (max-width: 500px) {
+  .banner .profile-img {
+    width: 50vw;
+  }
+
+  .banner {
+    padding-top: 140px;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
   .banner .profile-img {
     width: 320px;
+  }
+
+  .banner {
+    padding-top: 150px;
+    height: 120vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+  .banner .profile-img {
+    width: 320px;
+  }
+
+  .banner {
+    padding-top: 150px;
+    height: 70vh;
   }
 }
 

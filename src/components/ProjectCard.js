@@ -18,7 +18,7 @@ export const ProjectCard = ({
         <p>{description}</p>
         {infoLink !== "" && (
           <p>
-            <a className="info-link" href={infoLink} target="_blank">
+            <a className="info-link" href={infoLink} target="_blank" rel="noreferrer">
               More info
             </a>
           </p>

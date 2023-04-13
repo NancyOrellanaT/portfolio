@@ -14,7 +14,7 @@ export const Footer = () => {
             <p className="copyright">Copyright {year}. All Rights Reserved</p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <span className="email">adrianaorellana34@gmail.com</span>
+            <span className="email">adriana.orellana.torrico@gmail.com</span>
             <div className="social-icon">
               <a
                 href="https://www.linkedin.com/in/adriana-orellana-42568620b/"

@@ -3,14 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Download } from "react-bootstrap-icons";
 import headerImg from "../assets/img/personal-photo.jpeg";
 import handImg from "../assets/img/hand.svg";
-import 'animate.css';
+import "animate.css";
 
 export const Banner = () => {
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
   const position = "Research Assistant";
   const period = 2000;
 
@@ -26,25 +23,13 @@ export const Banner = () => {
 
   const tick = () => {
     let fullText = position;
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
+    let updatedText = text;
 
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
+    if (updatedText === fullText) {
       setDelta(period);
-    } else if (isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setIndex(1);
-      setDelta(500);
     } else {
-      setIndex((prevIndex) => prevIndex + 1);
+      updatedText = fullText.substring(0, text.length + 1);
+      setText(updatedText);
     }
   };
 
@@ -54,7 +39,11 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <h3>
-              <img className="greetings animate__animated animate__wobble" src={handImg} alt="Greeting"></img>
+              <img
+                className="greetings animate__animated animate__wobble"
+                src={handImg}
+                alt="Greeting"
+              ></img>
               Welcome!
             </h3>
 
@@ -69,7 +58,7 @@ export const Banner = () => {
               programming and research skills to solve problems for the benefit
               of society.
             </p>
-            <a href="/files/CV-AdrianaOrellana.pdf" download>
+            <a href="/files/CV-Adriana-Orellana.pdf" download>
               <button>
                 Download CV
                 <Download size={25} />
