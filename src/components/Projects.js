@@ -47,7 +47,7 @@ export const Projects = () => {
       title: "Escape to reading",
       technologies: "Unity",
       description:
-        '"Escape to Reading" is a virtual reality game that was a finalist in the "Immerse Yourself in Reading Hackathon" sponsored by the US Embassy in Bolivia. This game divides a story into various parchments, allowing users to unlock the next part of the narrative by solving reading comprehension questions. Through this approach, "Escape to Reading" combines traditional reading with immersive gameplay, allowing users to escape into the world of the story and enjoy a unique and interactive experience.',
+        '"Escape to Reading" is a virtual reality game that was a finalist in the "Dive Into Reading Hackathon" sponsored by the US Embassy in Bolivia. This game divides a story into various parchments, allowing users to unlock the next part of the narrative by solving reading comprehension questions. Through this approach, "Escape to Reading" combines traditional reading with immersive gameplay, allowing users to escape into the world of the story and enjoy a unique and interactive experience.',
       imgUrl: projImg5,
       infoLink:
         "https://drive.google.com/file/d/13mv21gu_g7QeXv9yxTLqC6UbvwzcyaRV/view?usp=sharing",
