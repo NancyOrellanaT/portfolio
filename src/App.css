@@ -320,7 +320,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 200px 0 100px 0;
   background-image: linear-gradient(rgb(73, 0, 73), #0f0f39, #131415);
-  height: 100vh;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
@@ -637,7 +636,6 @@ h2:hover {
 
   .banner {
     padding-top: 140px;
-    height: 120vh;
   }
 }
 
@@ -648,7 +646,6 @@ h2:hover {
 
   .banner {
     padding-top: 140px;
-    height: 100vh;
   }
 }
 
@@ -659,7 +656,6 @@ h2:hover {
 
   .banner {
     padding-top: 150px;
-    height: 120vh;
   }
 }
 
@@ -670,7 +666,6 @@ h2:hover {
 
   .banner {
     padding-top: 150px;
-    height: 70vh;
   }
 }
 
