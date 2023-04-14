@@ -58,7 +58,7 @@ export const Banner = () => {
               programming and research skills to solve problems for the benefit
               of society.
             </p>
-            <a href="/files/CV-Adriana-Orellana.pdf" download>
+            <a href="CV-Adriana-Orellana.pdf" download>
               <button>
                 Download CV
                 <Download size={25} />
