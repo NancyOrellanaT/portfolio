@@ -30,18 +30,31 @@ export const Publications = () => {
                 <li>
                   <p>
                     A. Villazon, O. Ormachea, <strong>A. Orellana</strong>, A.
-                    Zenteno, and T. Fransson, "Work in Progress: A Booking
-                    System for Remote Laboratories - The EXPLORE Energy Digital
-                    Academy (EEDA) case study". (REV2023 Conference, in process
-                    to be published)
+                    Zenteno, and T. Fransson, "
+                    <a
+                      className="link"
+                      href="https://link.springer.com/chapter/10.1007/978-3-031-42467-0_31"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Work in Progress: A Booking System for Remote Laboratories - The EXPLORE Energy Digital Academy (EEDA) case study
+                    </a>
+                    ", REV 2023.
                   </p>
                 </li>
                 <li>
                   <p>
                     A. Zenteno, <strong>A. Orellana</strong>, A.Villazon and O.
-                    Ormachea, "Automatic Selection of Reference Lines for
-                    Spectrometer Calibration with Recurrent Neural Networks".
-                    (SmartTech-IC 2022, in process to be published)
+                    Ormachea, "
+                    <a
+                      className="link"
+                      href="https://link.springer.com/chapter/10.1007/978-3-031-32213-6_8"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Automatic Selection of Reference Lines for Spectrometer Calibration with Recurrent Neural Networks
+                    </a>
+                    ", SmartTech-IC 2022.
                   </p>
                 </li>
                 <li>
@@ -56,7 +69,7 @@ export const Publications = () => {
                     >
                       A Low-Cost Spectrometry Remote Laboratory
                     </a>
-                    " in Artificial Intelligence and Online Engineering, 2023.
+                    " in Artificial Intelligence and Online Engineering, REV 2022.
                   </p>
                 </li>
                 <li>
