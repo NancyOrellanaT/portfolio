@@ -378,8 +378,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner .profile-img:hover {
   color: #fff;
-  box-shadow: 0 0 5px #727173, 0 0 10px #b0b0b0, 0 0 20px #727173,
-    0 0 50px #a05dc1;
+  box-shadow: 0 0 5px #727173, 0 0 10px #b0b0b0, 0 0 20px #727173, 0 0 50px #a05dc1;
 }
 
 .banner .greetings {
@@ -420,8 +419,7 @@ h2 {
 
 h2:hover {
   color: #fff;
-  text-shadow: 0 0 5px #727173, 0 0 25px #727173, 0 0 50px #727173,
-    0 0 40px #7b0772;
+  text-shadow: 0 0 5px #727173, 0 0 50px #727173, 0 0 40px #7b0772;
 }
 
 .project span {
@@ -629,5 +627,12 @@ h2:hover {
 
   .contact img {
     width: 30%;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1950px) {
+  .banner .profile-img {
+    margin-top: 50px;
+    width: 410px;
   }
 }
