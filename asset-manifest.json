@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a58170ef.css",
+    "main.js": "/portfolio/static/js/main.54a1a0e1.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/escapeToReading.png": "/portfolio/static/media/escapeToReading.72721580b5c340b5178f.png",
+    "static/media/personal-photo.jpeg": "/portfolio/static/media/personal-photo.348aee275e1f5603fdaa.jpeg",
+    "static/media/realtorApp.jpg": "/portfolio/static/media/realtorApp.fe8dac6d1560c91bccfb.jpg",
+    "static/media/spectrometryLab.jpeg": "/portfolio/static/media/spectrometryLab.5ed625fe2fa9864573a1.jpeg",
+    "static/media/booking.jpg": "/portfolio/static/media/booking.ac5217aeb8aa1552f943.jpg",
+    "static/media/spectraUPB2.jpeg": "/portfolio/static/media/spectraUPB2.dfdd3bf871479d3c050a.jpeg",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/spectraPi2.jpeg": "/portfolio/static/media/spectraPi2.2e2b9d08a48c289340fc.jpeg",
+    "static/media/hand.svg": "/portfolio/static/media/hand.83875ba7fe3e59c6c855852c8abd0f0f.svg",
+    "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.9ab36b085005b1dd01199309d799f58a.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "main.a58170ef.css.map": "/portfolio/static/css/main.a58170ef.css.map",
+    "main.54a1a0e1.js.map": "/portfolio/static/js/main.54a1a0e1.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a58170ef.css",
+    "static/js/main.54a1a0e1.js"
+  ]
+}
