@@ -56,10 +56,8 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              I am pursuing my Master's degree in Computer Science at the
-              EPFL, Switzerland. I am passionate about technology, data science,
-              and I want to use my programming and research skills to solve problems for the benefit
-              of society.
+              I am pursuing my Master's degree in Computer Science at EPFL in Switzerland, where I am exploring my interests in technology, data science,
+              and natural language processing. I am excited to use my programming and research skills to solve problems for the benefit of society.
             </p>
             <a href="CV-AdrianaOrellana-2024.pdf" download>
               <button>
