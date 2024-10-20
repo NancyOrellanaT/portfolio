@@ -76,7 +76,7 @@ export const NavBar = () => {
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
               <a
-                href="https://github.com/NancyOrellanaT"
+                href="https://github.com/aorellanat"
                 target="_blank"
                 rel="noreferrer"
               >
