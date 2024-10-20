@@ -83,7 +83,7 @@ export const NavBar = () => {
                 <img src={navIcon2} alt="GitHub" />
               </a>
             </div>
-            <a href="#contact">
+            <a href="mailto:adriana.orellana.torrico@gmail.com">
               <button
                 href="#contact"
                 className={
@@ -91,7 +91,6 @@ export const NavBar = () => {
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("contact")}
               >
                 <span>Contact me</span>
               </button>
