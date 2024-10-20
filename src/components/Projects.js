@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Spectra UPB",
       technologies: "Flutter",
       description:
-        "Spectra UPB is a mobile spectrometry app that allows users to analyze spectral data from various light sources. I redesigned it and implemented new features such as exposure and focus controls, calibrating a low-cost spectrometer with a mercury or neon lamp, and interpreting data transmitted via Bluetooth from a Raspberry Pi.",
+        "Spectra UPB is a mobile spectrometry app that allows users to analyze spectral data from various light sources. I redesigned it and implemented new features such as exposure and focus controls, calibrating a low-cost spectrometer with a mercury or neon lamp.",
       imgUrl: projImg3,
       infoLink: "https://upb-edu.gitlab.io/spectraupb/",
     },
@@ -23,7 +23,7 @@ export const Projects = () => {
       title: "Spectrometry Remote Lab",
       technologies: "Angular & Angular Material",
       description:
-        "I developed a Spectrometry Remote Lab using Angular and WebSockets, enabling users to remotely obtain spectra from various light sources, including LED and fluorescent lamps, through the SpectraUPB application. This remote lab allows users to calibrate a low-cost spectrometer, modify exposure settings, collect data, and analyze spectral information. This lab not only makes spectrometry experiments more accessible but also enhances remote learning by providing an immersive, hands-on experience.",
+        "I developed a Spectrometry Remote Lab using Angular, enabling users to remotely obtain spectra from various light sources, including LED and fluorescent lamps, through the SpectraUPB application. This remote lab allows users to calibrate a low-cost spectrometer, modify exposure settings, collect data, and analyze spectral information. This lab not only makes spectrometry experiments more accessible but also enhances remote learning by providing an immersive, hands-on experience.",
       imgUrl: projImg1,
       infoLink: "https://eubbc-digital.upb.edu/spectrometry-remote-lab/",
     },
