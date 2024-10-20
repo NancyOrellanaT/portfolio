@@ -111,7 +111,7 @@ p.danger {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(9px + 2vmin);
   color: white;
 }
 
@@ -163,7 +163,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 16px;
   opacity: 0.6;
 }
 
@@ -227,7 +227,7 @@ span.navbar-text {
   border: 1px solid #fff;
   border-radius: 15px;
   padding: 18px 34px;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 18px;
   position: relative;
   background-color: transparent;
@@ -318,7 +318,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Banner */
 .banner {
   margin-top: 0;
-  padding: 200px 0 100px 0;
+  padding: 150px 0 100px 0;
   background-image: linear-gradient(rgb(73, 0, 73), #0f0f39, #131415);
   background-position: top center;
   background-size: cover;
@@ -328,7 +328,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -342,6 +342,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 16px;
 }
 
 .banner button {
@@ -368,8 +371,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner .profile-img {
   border-radius: 100%;
-  width: 30vw;
+  width: 35vw;
   transition: 0.5s;
+  margin-bottom: 35px;
 }
 
 .banner .profile-img:hover {
@@ -394,18 +398,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Projects */
 .project {
-  padding: 65px 140px;
+  padding: 65px 0px;
   position: relative;
   background-color: #131415;
 }
 
 .project .presentation {
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .project h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
 }
@@ -465,7 +469,7 @@ h2:hover {
 }
 
 .proj-text h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -496,14 +500,14 @@ h2:hover {
 }
 
 .publication h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
 }
 
 .publication p {
   color: #b8b8b8;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5em;
   text-align: justify;
 }
@@ -520,90 +524,6 @@ h2:hover {
 
 .publication .link:hover {
   color: #fff;
-}
-
-/* Contact */
-.contact {
-  background-image: linear-gradient(rgb(73, 0, 73), #252567, #131415);
-  padding: 70px 0px;
-}
-
-.contact img {
-  width: 45%;
-}
-
-.contact h2 {
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-
-.contact form input,
-.contact form textarea {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  color: #fff;
-  margin: 30 0 8px 0px;
-  padding: 18px 26px;
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
-}
-
-.contact form input:focus,
-.contact form textarea:focus {
-  background: rgba(255, 255, 255, 1);
-  color: #121212;
-}
-
-.contact form input::placeholder,
-.contact form textarea::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-}
-
-.contact form input:focus::placeholder,
-.contact form textarea:focus::placeholder {
-  color: #121212;
-  opacity: 0.8;
-}
-
-.contact form button {
-  font-weight: 700;
-  color: #000;
-  background-color: #fff;
-  padding: 14px 48px;
-  font-size: 18px;
-  margin-top: 25px;
-  border-radius: 15px;
-  position: relative;
-  transition: 0.3s ease-in-out;
-}
-
-.contact form button span {
-  z-index: 1;
-  position: relative;
-}
-
-.contact form button:hover {
-  color: #fff;
-  background: #121212;
-}
-
-.contact form button::before {
-  transform: scale(1);
-}
-
-.contact form button:hover::before {
-  width: 100%;
-}
-
-.toast {
-  color: #000;
 }
 
 /* Footer */
