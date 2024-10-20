@@ -371,7 +371,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner .profile-img {
   border-radius: 100%;
-  width: 35vw;
+  width: 30vw;
   transition: 0.5s;
   margin-bottom: 35px;
 }
