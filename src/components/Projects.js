@@ -6,11 +6,56 @@ import projImg3 from "../assets/img/spectraUPB2.jpeg";
 import projImg4 from "../assets/img/spectraPi2.jpeg";
 import projImg5 from "../assets/img/escapeToReading.png";
 import projImg6 from "../assets/img/realtorApp.jpg";
+import projImg7 from "../assets/img/mnlpProject.png";
+import projImg8 from "../assets/img/datavizProject.png";
+import projImg9 from "../assets/img/roboticsProject.png";
+import projImg10 from "../assets/img/semesterProject.png";
+import projImg11 from "../assets/img/mlProject.png";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Structuring Argumentation in Online Debate Using Large Language Models",
+      technologies: "Unsloth, LLMs, Python",
+      description:
+        "I explored evaluating argument quality using two approaches: theoretical and practical. The theoretical approach allowed me to analyze an argument's quality based on its internal characteristics, such as how logical and reasonable it is. The practical approach, on the other hand, involved comparing two arguments to see which one was more persuasive. I fine-tuned Llama 3 8B and Mistral 7B v0.2 to test these approaches. The results showed these models outperformed baselines in both approaches and that the practical approach works best for concise arguments, while the theoretical approach is more effective with more detailed ones.",
+      imgUrl: projImg10,
+      infoLink: "https://drive.google.com/file/d/1fnHse-9OUOpjdLHJsEdROk9YfzEJHMp_/view?usp=sharing",
+    },
+    {
+      title: "Alpaca-Tutor: A LLM-Based Chatbot for Assisting Students in STEM Courses",
+      technologies: "PyTorch, Transformers, DPO and Quantization",
+      description:
+        "Alpaca Tutor is a specialized AI assistant designed to support college students in STEM fields. Current large language models struggle to address the complex mathematical and reasoning concepts required in these fields. To overcome this limitation, a new dataset was created using chain-of-thought and large language models with strong reasoning skills. Then, after finetuning a base model using this dataset, Direct Preference Optimization (DPO) was applied to align the model's responses with human preferences. The result is an AI assistant that can provide step-by-step solutions to complex problems.",
+      imgUrl: projImg7,
+      infoLink: "https://drive.google.com/file/d/1c5eLuRb01Q6eyHEpyCDOVGjcdCM83MNa/view?usp=sharing",
+    },
+    {
+      title: "Wild Guard",
+      technologies: "React",
+      description:
+        "A website that helps raise awareness about protecting endangered species through interactive visuals and tools. Using data from the IUCN database and its website, this project shows detailed information on individual endangered animals, as well as a statistical overview of the global status of endangered species. This allows users to quickly understand the current situation of endangered animals worldwide. ",
+      imgUrl: projImg8,
+      infoLink: "https://com-480-data-visualization.github.io/project-2024-group-era/",
+    },
+    {
+      title: "Computer vision for map and robot detection",
+      technologies: "OpenCV, Python",
+      description:
+        "I developed a computer vision component using OpenCV to detect a map, correct its perspective, and identify obstacles, start, and goal points. To achieve this, I employed contour detection to identify obstacles and Aruco marker recognition to identify the map and apply a perspective transformation. Additionally, this component can detect a Thymio robot in real-time, tracking its heading and x, y coordinates as it moves above the map.",
+      imgUrl: projImg9,
+      infoLink: "",
+    },
+    {
+      title: "Fine-tuning open-source LLMs for argument detection",
+      technologies: "litgpt, Python",
+      description:
+        "This involves identifying arguments within articles, which is achieved by fine-tuning large language models such as Llama-2-7B, Mistral-7B, and Phi-1.5 using the Low-Rank Adaption (LoRA) technique. The best-performing model, Mistral-7B, achieved an accuracy of 84.24% and F1-Score of 82.23% in detecting arguments in news articles.",
+      imgUrl: projImg11,
+      infoLink: "https://drive.google.com/file/d/1xHIflDvZsi8NuH3MPSGy5KBxefDE5YXF/view?usp=sharing",
+    },
     {
       title: "Spectra UPB",
       technologies: "Flutter",
