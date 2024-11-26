@@ -52,7 +52,7 @@ export const Projects = () => {
       title: "Fine-tuning open-source LLMs for argument detection",
       technologies: "litgpt, Python",
       description:
-        "This involves identifying arguments within articles, which is achieved by fine-tuning large language models such as Llama-2-7B, Mistral-7B, and Phi-1.5 using the Low-Rank Adaption (LoRA) technique. The best-performing model, Mistral-7B, achieved an accuracy of 84.24% and F1-Score of 82.23% in detecting arguments in news articles.",
+        "This project involves identifying arguments within articles, which is achieved by fine-tuning large language models such as Llama-2-7B, Mistral-7B, and Phi-1.5 using the Low-Rank Adaption (LoRA) technique. The best-performing model, Mistral-7B, achieved an accuracy of 84.24% and F1-Score of 82.23% in detecting arguments in news articles.",
       imgUrl: projImg11,
       infoLink: "https://drive.google.com/file/d/1xHIflDvZsi8NuH3MPSGy5KBxefDE5YXF/view?usp=sharing",
     },
